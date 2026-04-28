@@ -772,10 +772,3 @@ def get_placement(field: Field) -> List[Tuple[float, float, float]]:  #返回摆
                        [0.0, 0.0, 0.0]]
     else:
         print("race_state = " + str(race_state))
-
-    final_set_pos = [(set_pos[0][0], set_pos[0][1], set_pos[0][2]),
-                     (set_pos[1][0], set_pos[1][1], set_pos[1][2]),
-                     (set_pos[2][0], set_pos[2][1], set_pos[2][2]),
-                     (set_pos[3][0], set_pos[3][1], set_pos[3][2]),
-                     (set_pos[4][0], set_pos[4][1], set_pos[4][2]),
-                     (set_pos[5][0], set_pos[5][1], set_pos[5][2])]
