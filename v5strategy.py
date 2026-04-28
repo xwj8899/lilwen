@@ -779,9 +779,3 @@ def get_placement(field: Field) -> List[Tuple[float, float, float]]:  #返回摆
                      (set_pos[3][0], set_pos[3][1], set_pos[3][2]),
                      (set_pos[4][0], set_pos[4][1], set_pos[4][2]),
                      (set_pos[5][0], set_pos[5][1], set_pos[5][2])]
-
-    last_race_state = race_state   #记录上一次比赛状态
-    last_race_state_trigger  = race_state_trigger
-
-    print(final_set_pos)
-    return final_set_pos  # 最后一个是球位置（x,y,角）,角其实没用
